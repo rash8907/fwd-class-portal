@@ -1,0 +1,241 @@
+body{
+    background-color: rgb(70, 240, 217);
+}
+
+.atls{
+    font-size: 1.8em;
+    text-align: center;
+    font-family: 'Quicksand';
+}
+
+.frontend{
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Quicksand';
+}
+
+.all {
+    display: flex;  
+    flex-flow: row wrap;
+    text-align: center; 
+    justify-content: center;
+}
+
+.top{
+    display: flex;
+    flex: 1 100%;
+    margin-right: 45px;
+    margin-left: 45px;
+}
+
+.name{
+    text-align: left;
+    font-family: 'Quicksand';
+    color:white;
+    flex: 1 1 70%;
+    margin-right: 10px;
+    font-size: 4em;
+}
+
+.navbar{
+    margin-left: 10px;
+    text-align: right;
+    flex: 1 100%;
+}
+
+li {
+    display: inline;
+    font-size: 4em;
+    margin-right: 30px;
+    font-family: 'Quicksand';
+  }
+
+  #assignment{
+    color: white;
+  }
+
+  #assignment:hover{
+    color: rgb(247, 41, 212);
+  }
+
+  a:link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color:rgb(247, 41, 212);
+  }
+  
+  a:active {
+    text-decoration: none;
+    color: white;
+  }
+
+
+
+.title{
+    margin-right: 45px;
+    margin-left: 45px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 20px;
+    border: 5px solid white;
+    border-radius: 50px;
+    background-color:black;
+    flex: 1 100%;
+    text-align: left; 
+    justify-content: left;
+    font-size: 2.5em;
+    color: white;
+}
+
+
+.line{
+    display: flex;
+    align-items: stretch;
+    flex: 1 100%;
+    height: auto;
+    margin-right: 45px;
+    margin-left: 45px;
+}
+
+.bubble1{
+    margin-top:10px;
+    background-color:black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex: 1 1 50%;
+    font-size: 2.5em;
+    margin-right: 10px;
+    color: white;
+    margin-bottom:10px;
+    border: 5px solid white;
+    border-radius: 50px;
+    font-family: 'Quicksand';
+}
+
+.bubble2{
+    font-family: 'Quicksand';
+    margin-top: 10px;
+    background-color:black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex: 1 1 50%;
+    font-size: 2.5em;
+    margin-left:10px;
+    margin-bottom:10px;
+    border: 5px solid white;
+    border-radius: 50px;
+}
+
+.bubble3{
+  font-family: 'Quicksand';
+  margin-top: 10px;
+  background-color:black;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  flex: 1 1 50%;
+  font-size: 2.5em;
+  margin-right: 10px;
+  color: white; 
+  margin-bottom:10px;
+  border: 5px solid white;
+  border-radius: 100px;
+}
+
+
+.bubble4{
+  font-family: 'Quicksand';
+  margin-top:10px;
+  background-color:black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  flex: 1 1 50%;
+  font-size: 2.5em;
+  margin-right: 10px;
+  color: white;
+  margin-bottom:10px;
+  border: 5px solid white;
+  border-radius: 100px;
+
+}
+
+.processblog{
+    margin-top:10px;
+    margin-bottom:10px;
+    border: 5px solid white;
+    border-radius: 50px;
+    font-family: 'Quicksand';
+    background-color:black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex: 1 1 50%;
+    font-size: 2.5em;
+    margin-left: 10px;
+    color: white;
+  }
+
+.assign1{
+  margin-top:15px;
+  margin-bottom:30px;
+  padding:0px;
+}
+
+
+@media (max-width: 1000px) {
+    .atls{
+        font-size: 1.5em;
+      }
+      .frontend{
+        font-size: 1.0em;
+      }
+      .navbar{
+        font-size: 1.0em;
+      }
+
+      li{
+        font-size: 1em;
+      }
+
+    .line {
+      flex-direction: column;
+    }
+    .box-1{
+        font-size: 2em;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    .box-2{
+        margin-left: 0px;
+        margin-top: 10px;
+        font-size: 2em;
+    }
+    .box-3{
+      margin-right: 0px;
+      font-size:2em;
+    }
+
+    .box-4{
+      font-size:2em;
+      margin-left: 0px;
+    }
+    .name{
+      font-size: 2em;
+      color: white;
+    }
+
+  }
+  
+
+  
+ 
